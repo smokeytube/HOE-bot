@@ -3,5 +3,5 @@ from discord.ext import commands
 
 class GeneralCommands(commands.Cog):
   @commands.command()
-  async def clear(self, ctx):
+  async def hello(self, ctx):
     await ctx.send("Hello!")
